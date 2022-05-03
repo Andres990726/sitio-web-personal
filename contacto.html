@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jagarciag | Web Design</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- MAIN WRAPPER -->
+  <div id="wrapper">
+
+    <!-- BANNER WRAPPER -->
+    <div id="banner-wrapper">
+      <header>
+        <div id="header-inner">
+
+          <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="index.html" >
+                  Inicio
+                </a>
+              </li>
+              <li>
+                <a href="estudios.html">
+                  Estudios
+                </a>
+              </li>
+              <li>
+                <a href="proyectos.html">
+                  Proyectos
+                </a>
+              </li>
+              <li>
+                <a href="pasatiempos.html">
+                  Pasatiempo
+                </a>
+              </li>
+              <li>
+                <a href="contacto.html" class="current">
+                  Contacto
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    
+    </div>
+
+    <main id="wrapper" class="container mx-auto">
+    <section class="wrapper-contacto">
+      <h3>Formulario de contacto</h3>
+      <div id="formulario">
+        <form>
+          <input placeholder="Nombre" />
+          <input placeholder="Correo" />
+          <textarea placeholder="Mensaje"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      <br />
+    </section>
+    </main> 
+    
+  <div class="clearfix-padding"></div>
+  <!-- FOOTER -->
+  <footer>
+    <div class="banner-wrapper">
+      <div class="icon-text">
+        <div class="icon-text-icon">
+          <ul class="footer-nav">
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="estudios.html">Estudios</a>
+            </li>
+            <li>
+              <a href="proyectos.html">Proyectos</a>
+            </li>
+            <li>
+              <a href="pasatiempos.html">Pasatiempos</a>
+            </li>
+            <li>
+              <a href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="icon-text-text">
+          <ul class="social">
+            <li>
+              <a href="mailto:jagarciag@unicauca.edu.com">
+                <i class="fa fa-envelope-o"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/andres.gg99">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/573144441410">
+                <i class="fa fa-whatsapp"></i>
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://www.instagram.com/andres.gg99/">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="second-footer">
+    <p>
+      &copy; <a href="http://www.unicauca.edu.co/">unicauca.com</a>
+    </p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+</body>
+</html>
